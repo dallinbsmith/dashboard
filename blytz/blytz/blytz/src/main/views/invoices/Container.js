@@ -1,32 +1,32 @@
 import React from "react";
-import ReportsComponent from "./Component";
+import InvoicesComponent from "./Component";
 import {Link} from "react-router-dom";
 
-class ReportsContainer extends React.Component {
+class InvoicesContainer extends React.Component {
     constructor() {
         super();
         this.state = {
-            reports: []
+            invoices: []
         }
-        this.genReports = this.genReports.bind(this);
+        this.genInvoices = this.genInvoices.bind(this);
         this.searchId = this.searchId.bind(this);
     }
 
     componentDidMount() {
         this.setState({
-            reports: [
+            invoices: [
                 {
-                    title: "Content Creation",
+                    title: "Schedule Reminders",
                     price: "200",
                     _id: "p892345ra746"
                 },
                 {
-                    title: "Web Design",
+                    title: "Email Templates",
                     price: "1200",
                     _id: "p892345ra756"
                 },
                 {
-                    title: "Social Media Marketing",
+                    title: "Payment Pages",
                     price: "800",
                     _id: "p892345ra766"
                 }
@@ -34,28 +34,28 @@ class ReportsContainer extends React.Component {
         });
     }
 
-    genReports() {
-        return this.state.reports.map(report => {
-            return <Link to={`/reports/${report._id}`} key={report._id}>{report.title}</Link>
+    genInvoices() {
+        return this.state.invoices.map(invoice => {
+            return <Link to={`/invoices/${invoice._id}`} key={invoice._id}>{invoice.title}</Link>
         });
     }
 
     searchId(id) {
-        return this.state.reports.find(report => {
-            return id === report._id;
+        return this.state.invoices.find(invoice => {
+            return id === invoice._id;
         });
     }
 
     render() {
         return (
             <div className="header-container">
-                <div className="reports"></div>
-                <ReportsComponent
-                    genReports={this.genReports}
+                <div className="invoices"></div>
+                <InvoicesComponent
+                    genInvoices={this.genInvoices}
                     searchId={this.searchId}/>
             </div>
         )
     }
 }
 
-export default ReportsContainer;
+export default InvoicesContainer;

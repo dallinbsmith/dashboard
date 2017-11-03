@@ -1,6 +1,6 @@
 import React from "react";
 
-function Report(props) {
+function Invoice(props) {
     console.log(props);
 
     const info = props.searchId(props.match.params.id);
@@ -12,4 +12,4 @@ function Report(props) {
     )
 }
 
-export default Report;
+export default Invoice;

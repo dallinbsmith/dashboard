@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Home from "./views/Home";
+import Dashboard from "./views/dashboard/Container";
 import About from "./views/about/Container";
-import ReportsContainer from "./views/reports/Container";
+import InvoicesContainer from "./views/invoices/Container";
 import Footer from "./Footer";
 
 import {Switch, Route} from "react-router-dom";
@@ -11,12 +11,19 @@ function App() {
     return (
         <div className="background-gradient">
           <div className="gray-background-overlap">
+            <div className= "settings-box">
+              <div className = "settings-gear"></div>
+              </div>
+            <div className ="menu-box">
+              <div className = "menu-icon"></div>
+            </div>
             <Navbar className = "nav-bar"/>
             <Switch>
-                <Route exact path="/" component={Home}/>
+                <Route exact path="/" component={Dashboard}/>
                 <Route path="/about" component={About}/>
-                <Route path="/reports" component={ReportsContainer}/>
-            </Switch>
+                <Route path="/invoices" component={InvoicesContainer}/>
+                <Route path="/messages" component={About}/>
+          </Switch>
             <Footer/>
             </div>
         </div>
