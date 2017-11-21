@@ -1,0 +1,500 @@
+.customer-import{
+  width:75%;
+  height: 44.7%;
+  top: 70px;
+  right: 10px;
+  background-color: rgba(30, 30, 40, 0.9);
+  position: absolute;
+  box-shadow: 4px 4px 5px #414042;
+}
+
+.customer-management{
+  width:75%;
+  height: 44.7%;
+  bottom:12px;
+  right: 10px;
+  background-color: rgba(30, 30, 40, 0.9);
+  position: absolute;
+  box-shadow: 4px 4px 5px #414042;
+}
+
+.navbar-gray-back{
+  width: 110px;
+  height: 100%;
+  background-color: #3b3e44;
+  right: 0px;
+  position: absolute;
+}
+.navbar-man-import-highlight{
+  width: 110px;
+  height: 140px;
+  background-color: #44a3a3;
+  right: -120px;
+  top: 138px;
+  position: absolute;
+}
+.edit-customer-highlight{
+  top: 0px;
+  position: absolute;
+}
+.mass-import-highlight{
+  top: 271px;
+  position: absolute;
+}
+
+.icon-hightlight-pointer{
+  background-image: url("../images/icons/icon-hightlight-pointer.png");
+  background-size: 20px 40px;
+  background-repeat: no-repeat;
+  width: 101%;
+  height: 100px;
+  top: 35%;
+  left: -2px;
+  position: absolute;
+}
+.navbar-icon-hightlight{
+  background-color: #b3e1e8 !important;
+  color: #b3e1e8 !important;
+  border: solid 1px #b3e1e8 !important;
+  height: 0px !important;
+  top: -8px;
+  width: calc(100% - 2px) !important;
+  opacity: .6;
+  position: absolute;
+}
+.navbar-icon-lowlight{
+  background-color: #193837 !important;
+  color: #193837 !important;
+  border: solid 1px #193837 !important;
+  height: 1px !important;
+  bottom: -8px;
+  width: calc(100% - 2px) !important;
+  position: absolute;
+}
+.navbar-icon-hightlight{
+  width: 100%;
+  size: 20px;
+}
+
+.customer-import1{
+  width: calc(100% - 120px);
+  height: 100%;
+  top: 0px;
+  right: 120px;
+  position: absolute;
+}
+
+.cust-import{
+  margin: 10px;
+  width: 70px;
+  font-size: 16px;
+  text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+  color: #e6e7e8;
+	font-weight: 100;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2;
+  font-family: 'Khand', sans-serif;
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+.edit-customer{
+    top:140px;
+    right: 18px;
+
+  }
+.edit-customer-icon{
+  background-image: url("../images/icons/edit-customer-icon.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 40px;
+  right: 14px;
+  position: absolute;
+  z-index: 2
+}
+
+.edit-customer-disabled{
+    top:140px;
+    right: 18px;
+    color: #5d5f63;
+    cursor:not-allowed;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 0px -14px;
+    position: absolute;
+    z-index: 3
+
+  }
+.edit-customer-icon{
+  background-image: url("../images/icons/edit-customer-icon.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 40px;
+  right: 14px;
+  position: absolute;
+  z-index: 2
+}
+
+
+
+.manual{
+    top:270px;
+    right: 18px;
+}
+.manual-import-icon{
+  background-image: url("../images/icons/manual-import-icon.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 170px;
+  right: 18px;
+  position: absolute;
+  z-index: 2
+}
+
+.mass{
+    top:400px;
+    right: 18px;
+
+  }
+.mass-import-icon{
+  background-image: url("../images/icons/mass-import-icon.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 300px;
+  right: 18px;
+  position: absolute;
+  z-index: 2
+}
+
+.man-import-header{
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  color: #a7a9ac;
+  position: absolute;
+  left: 30px;
+}
+
+.cust-select{
+  -webkit-appearance: button;
+  -webkit-border-radius: 1px;
+  -webkit-user-select: none;
+background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#a7a9ac, #a7a9ac 10%, #a7a9ac);
+background-image: url(http://i62.tinypic.com/15xvbd5.png), -o-linear-gradient(#a7a9ac, #a7a9ac 10%, #a7a9ac);
+background-image: url(http://i62.tinypic.com/15xvbd5.png), linear-gradient(#a7a9ac, #a7a9ac 10%, #a7a9ac);
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  border: 0px;
+  overflow: hidden;
+  padding: 5px 10px;
+  font-size: 12px;
+  padding: 2px 10px;
+  -webkit-appearance: none;
+  height: 18px;
+  background-color: #a7a9ac;
+  border-style: none;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  position: absolute;
+  display:inline-block;
+  width: 25%;
+}
+
+.cust-import-hr1{
+  height: 3px;
+  width: 85%;
+  background-color: #44a3a3;
+  top: 50px;
+  left: 30px;
+  position: absolute;
+}
+.cust-import-hr2{
+  height: 3px;
+  width: 90%;
+  background-color: #44a3a3;
+  top: 50px;
+  left: 5%;
+  position: absolute;
+}
+.cust-import-hr3{
+  height: 3px;
+  width: 90%;
+  background-color: #44a3a3;
+  top: 50px;
+  left: 5%;
+  position: absolute;
+}
+
+.man-import-form-div1{
+  width: 32.5%;
+  height: 100%;
+  left: 0%;
+  margin-right: 1%;
+
+  position: relative;
+  display: inline-block;
+}
+.man-import-form-div2{
+  width: 32.5%;
+  height: 100%;
+  margin-right: 1%;
+  position: relative;
+  display: inline-block;
+}
+.man-import-form-div3{
+  width: 33%;
+  height: 100%;
+
+  position: relative;
+  display: inline-block;
+}
+
+.cust-import-div-tag1{
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #a7a9ac;
+  position: absolute;
+  left: 30px;
+  top: 21px;
+}
+.cust-import-div-tag2{
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #a7a9ac;
+  position: absolute;
+  left: 5%;
+  top: 21px;
+}
+
+.cust-import-input{
+    height: 16px;
+    background-color: #a7a9ac;
+    border-style: none;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  	font-style: normal;
+  	font-variant: normal;
+    position: absolute;
+    display:inline-block;
+}
+
+.cust-import-h6{
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  color: #a7a9ac;
+  position: absolute;
+}
+
+.fname{
+  left: 30px;
+  width: 28%;
+  top: 100px;
+}
+.fnameh6{
+  left: 30px;
+  top: 53px;
+}
+
+.mi{
+  width: 8%;
+  top:100px;
+  left: calc(30px + 35%);
+}
+.mih6{
+  top: 53px;
+  left: calc(30px + 35%);
+}
+
+.lname{
+  left: calc(30px + 49%);
+  width: 35%;
+  top: 100px;
+}
+.lnameh6{
+  left: calc(30px + 49%);
+  top: 53px;
+}
+
+.address{
+  left: 30px;
+  width: 84%;
+  top: 145px;
+}
+.addressh6{
+  left: 30px;
+  top: 98px;
+}
+
+.city{
+  top: 190px;
+  width: 54%;
+  left: 30px;
+}
+.cityh6{
+  left: 30px;
+  top: 143px;
+}
+
+.state{
+  left: calc(30px + 59.5%);
+  top: 189px;
+}
+.stateh6{
+  left: calc(30px + 60%);
+  top: 143px;
+}
+
+.zip{
+  top: 235px;
+  width: 20%;
+  left: 30px;
+}
+.ziph6{
+  top: 188px;
+  left: 30px;
+}
+
+.country{
+  top: 234px;
+  left: calc(30px + 26%);
+  width: 59%;
+}
+
+.email{
+  left: 30px;
+  width: 84%;
+  top: 280px;
+}
+.emailh6{
+  top:232px;
+  left: 30px;
+}
+
+.phone{
+  left: 30px;
+  width: 84%;
+  top: 325px;
+}
+.phoneh6{
+  top:277px;
+  left: 30px;
+}
+
+.cardname{
+  left: 15px;
+  width: 90%;
+  top: 130px;
+}
+.cardnameh6{
+  top:82px;
+  left: 15px;
+}
+
+.cardno{
+  left: 15px;
+  width: 90%;
+  top: 175px;
+}
+.cardnoh6{
+  top:127px;
+  left: 15px;
+}
+
+.expire-mm{
+  left: 15px;
+  width: 20%;
+  top: 220px;
+}
+.expire-mmh6{
+  left: 15px;
+  top:172px;
+}
+
+.expire-yy{
+  left: calc(15px + 25%);
+  width: 20%;
+  top: 220px;
+}
+.expire-yyh6{
+  left: calc(15px + 25%);
+  top:172px;
+}
+
+.cvv{
+  left: calc(15px + 60%);
+  width: 30%;
+  top: 220px;
+}
+.cvvh6{
+  left: calc(15px + 60%);
+  top:172px;
+}
+
+.visa-icon{
+  background-image: url("../images/icons/visa-icon.png");
+  background-size: 50px 17px;
+  background-repeat: no-repeat;
+  width: 101%;
+  height: 100px;
+  top: 265px;
+  left: calc(15px + 13%);
+  position: absolute;
+}
+.mastercard-icon{
+  background-image: url("../images/icons/mastercard-icon.png");
+  background-size: 40px 25px;
+  background-repeat: no-repeat;
+  width: 101%;
+  height: 100px;
+  top: 262px;
+  left: calc(15px + 37%);
+  position: absolute;
+}
+.american-express-icon{
+  background-image: url("../images/icons/american-express-icon.png");
+  background-size: 50px 20px;
+  background-repeat: no-repeat;
+  width: 101%;
+  height: 100px;
+  top: 265px;
+  left: calc(15px + 56%);
+  position: absolute;
+
+}
+
+.submission-button{
+  width: 130px;
+  height: 37px;
+  position: absolute;
+  border-style: solid;
+  border-color: #44a3a3;
+  background: none;
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #44a3a3;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+.submission-button:hover{
+  border-color: #22222c;
+  background-color: #44a3a3;
+  color: #22222c;
+}

@@ -1,0 +1,156 @@
+.cmanage-navbar-div{
+  width: 115px;
+  height: 100%;
+  background-color: #3b3e44;
+  position: absolute;
+
+}
+
+.cmanage-import{
+  margin: 10px;
+  width: 75px;
+  font-size: 14px;
+  text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+  color: #e6e7e8;
+	font-weight: 100;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2;
+  font-family: 'Khand', sans-serif;
+  z-index: 2
+
+}
+
+.nav-overview-btn{
+  left: 330px;
+  top: 560px;
+  cursor: pointer;
+}
+.nav-find-btn{
+  left: 330px;
+  top: 655px;
+  cursor: pointer;
+}
+.nav-communication-btn{
+  left: 330px;
+   top: 745px;
+   cursor: pointer;
+}
+.nav-invoice-btn{
+    left: 330px;
+      top: 855px;
+      cursor: pointer;
+}
+
+
+
+.cmanage-navbar-highlight{
+    width: 115px;
+    height: 110px;
+    background-color: #58245b;
+    position: absolute;
+}
+
+.cmanage-icon-hightlight{
+  background-color: #97629b !important;
+  color: #97629b !important;
+  border: solid 1px #97629b !important;
+  height: 0px !important;
+  top: -8px;
+  width: calc(100% - 2px) !important;
+  position: absolute;
+}
+.cmanage-icon-lowlight{
+  background-color: #2d0730 !important;
+  color: #2d0730 !important;
+  border: solid 1px #2d0730 !important;
+  height: 1px !important;
+  bottom: -8px;
+  width: calc(100% - 2px) !important;
+  position: absolute;
+}
+
+.cmanage-hightlight-pointer{
+  background-image: url("../images/icons/icon-hightlight-pointer.png");
+  background-size: 20px 40px;
+  background-repeat: no-repeat;
+  width: 101%;
+  height: 100px;
+  top: 35%;
+  left: 2px;
+  position: absolute;
+  transform: scaleX(-1);
+}
+
+.find-highlight{
+    top:100px;
+}
+
+.cm-overview-icon{
+  background-image: url("../images/icons/cm-overview-icon.png");
+  background-size: 32px 20px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 40px;
+  left: 40px;
+  position: absolute;
+  z-index: 2
+}
+.cm-find-icon{
+  background-image: url("../images/icons/cm-find-icon.png");
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 128px;
+  left: 40px;
+  position: absolute;
+  z-index: 2
+}
+.cm-communication-icon{
+  background-image: url("../images/icons/cm-message-icon.png");
+  background-size: 16px 30px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 220px;
+  left: 50px;
+  position: absolute;
+  z-index: 2
+}
+
+.cm-invoice-icon{
+  background-image: url("../images/icons/cm-invoice-icon.png");
+  background-size: 19px 29px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  top: 330px;
+  left: 48px;
+  position: absolute;
+  z-index: 2
+}
+
+.select-user-btn{
+    width: 80px;
+    height: 22px;
+    border-style: solid;
+    border-color: #58245b;
+    background: none;
+    font-family: 'Khand', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: #58245b;
+    padding-top: 0px;
+
+}
+
+.select-user-btn:hover{
+  border-color: #58245b;
+  background-color: #58245b;
+  color: #6c7280;
+}

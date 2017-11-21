@@ -1,0 +1,232 @@
+.edit-customer-separation-div1{
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  margin-right: 2%;
+  position: absolute;
+}
+.edit-customer-separation-div2{
+  height: 100%;
+  width: 48%;
+  left: 52%;
+  display: inline-block;
+  position: absolute;
+}
+
+.edit-customer-title-h6{
+  font-family: 'Khand', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #44a3a3;
+  position: absolute;
+}
+.edit-customer-subtitle-h6{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+  font-weight: 100;
+  font-size: 10px;
+  color: #ffffff;
+  position: absolute;
+}
+.ec-content-h4{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.edit-cust-customer{
+  top: 27px;
+  left: 30px;
+}
+.edit-cust-additional{
+  top: 180px;
+  left: 30px;
+}
+.edit-cust-accounts{
+  top: 125px;
+  left: 30px;
+}
+
+.edit-customer-customer-div{
+  width: 80%;
+  height: 28%;
+  right: 35px;
+  top: 100px;
+  position: absolute;
+  opacity: .5;
+}
+.edit-customer-schedule-div{
+  width: 80%;
+  height: 14%;
+  right: 35px;
+  top: 100px;
+  position: absolute;
+  opacity: .5;
+}
+.edit-customer-accounts-div{
+  width: 80%;
+  height: 32%;
+  right: 35px;
+  top: 195px;
+  position: absolute;
+  opacity: .5;
+}
+.edit-customer-additional-div{
+  width: 80%;
+  height: 19%;
+  right: 35px;
+  top: 250px;
+  position: absolute;
+  opacity: .5;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+.ec-searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid  #44a3a3;
+  padding: 5px;
+  height: 20px;
+  border-radius: 1px;
+  outline: none;
+  background-color: #b4bccc;
+  color: #22222c;
+}
+.ec-searchTerm:focus{
+  background-color: #b4bccc;
+  color:  #22222c;
+}
+.ec-searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid  #44a3a3;
+  background:  #44a3a3;
+  text-align: center;
+  color: #6c7280;
+  border-radius: 1px;
+  background-image: url("../images/icons/search-icon.png");
+  background-size: 55%;
+  background-position:center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 20px;
+}
+.ec-wrap{
+  width: 69%;
+  bottom: 20px;
+  right: 85px;
+  position: absolute;
+}
+
+.ec-name{
+  top:-30px;
+}
+.ec-address{
+  top:10px;
+}
+.ec-email{
+  top:-30px;
+  left: 57%;
+}
+.ec-phone{
+  top:10px;
+  left: 57%;
+}
+.ec-groups{
+  top:-27px;
+}
+.ec-source{
+  top:-30px;
+  left: 57%;
+}
+.ec-schedule{
+  top:-30px;
+}
+.ec-invoice{
+  top:-30px;
+  left: 57%;
+}
+.ec-primaryacc{
+  top: -27px;
+}
+.ec-secondaryacc{
+  top: 22px;
+}
+
+.ecc-name{
+  top: -12px;
+}
+.ecc-address-st{
+  top: 28px;
+}
+.ecc-address-city{
+  top: 48px;
+}
+.ecc-email{
+  top:-12px;
+  left: 57%;
+}
+.ecc-phone{
+  top: 28px;
+  left: 57%;
+}
+.ecc-groups{
+  top: -10px;
+}
+.ecc-source{
+  top:-12px;
+  left: 57%;
+}
+.ecc-schedule{
+  top: -12px;
+}
+.ecc-invoice{
+  top:-12px;
+  left: 57%;
+}
+.ecc-primaryacc{
+  top: -10px;
+}
+.ecc-secondaryacc{
+  top: 40px;
+}
+.edit-customer-submit{
+width: 130px;
+height: 37px;
+position: absolute;
+border-style: solid;
+border-color: #44a3a3;
+background: none;
+font-family: 'Khand', sans-serif;
+font-weight: 100;
+font-size: 16px;
+color: #44a3a3;
+top: 350px;
+right: -20px;
+transform: translate(-50%, 10%);
+}
+.find-customer-submit{
+width: 130px;
+height: 37px;
+position: absolute;
+border-style: solid;
+border-color: #44a3a3;
+background: none;
+font-family: 'Khand', sans-serif;
+font-weight: 100;
+font-size: 16px;
+color: #44a3a3;
+top: 350px;
+right: 120px;
+transform: translate(-50%, 10%);
+}

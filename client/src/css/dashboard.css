@@ -1,0 +1,85 @@
+
+.top-half-graphs{
+  width:75%;
+  height: 44.2%;
+  top:70px;
+  right: 10px;
+  position: absolute;
+}
+.bottom-half-graphs{
+  width:75%;
+  height: 45.5%;
+  bottom:12px;
+  right: 10px;
+  background-color: rgba(30, 30, 40, 0.9);
+  position: absolute;
+  box-shadow: 4px 4px 5px #414042;
+}
+
+.autopay-graph{
+  width:32.5%;
+  height:100%;
+  background-color: rgba(30, 30, 40, 0.9);
+  margin-right: 1.2%;
+  display: inline-block;
+  box-shadow: 4px 4px 5px #414042;
+
+}
+.autopay-graph-image{
+  background-image: url("../images/autopay_graph.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.users-graph{
+  width:32.5%;
+  height:100%;
+  background-color: rgba(30, 30, 40, 0.9);
+  display: inline-block;
+    box-shadow: 4px 4px 5px #414042;
+}
+.users-graph-image{
+  background-image: url("../images/users_graph.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 70px;
+
+
+}
+
+.billing-graph{
+  width:32.5%;
+  height:100%;
+  background-color: rgba(30, 30, 40, 0.9);
+  margin-right: 1.2%;
+  display: inline-block;
+  box-shadow: 4px 4px 5px #414042
+}
+.billing-graph-image{
+  background-image: url("../images/billing_graph.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 70px;
+
+}
+
+.graph-total-rev{
+  background-image: url("../images/graph-total-rev.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 94%;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
